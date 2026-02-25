@@ -17,7 +17,7 @@ export interface Options {
 export class SaveFile implements SaveFileUseCase {
     constructor(
         /*
-        * repository: StorageRepository
+        * repository: StorageRepository *
         */
     ) { }
 

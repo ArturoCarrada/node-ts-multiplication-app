@@ -8,7 +8,7 @@ import { ServerApp } from "./presentation/server-app";
 // console.log(process.argv)
 
 async function main(){   
-    console.log(yarg);
+    //console.log(yarg);
 
     const {b:base, l:limit, s:showTable, n:fileName, d:fileDestination} = yarg;
 
