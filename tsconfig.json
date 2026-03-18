@@ -1,10 +1,10 @@
 {
 	// Visit https://aka.ms/tsconfig to read more about this file
 	"exclude": [
-		"node_modules"
+		"node_modules",
 	],
 	"include": [
-		"src/**/*"
+		"src/**/*",
 	],
 	"compilerOptions": {
 		// File Layout
@@ -22,7 +22,8 @@
 		// For nodejs:
 		// "lib": ["esnext"],
 		"types": [
-			"node"
+			"node",
+			"jest",
 		],
 		// and npm install -D @types/node
 		// Other Outputs
@@ -47,5 +48,6 @@
 		"noUncheckedSideEffectImports": true,
 		"moduleDetection": "force",
 		"skipLibCheck": true,
+		// "allowSyntheticDefaultImports": true,
 	}
 }

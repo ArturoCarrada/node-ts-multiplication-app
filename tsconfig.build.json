@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json", // Copia toda la configuración anterior
+    "exclude": [
+        "node_modules",
+        "dist",
+        "src/**/*.test.ts"
+    ],
+    "include": [
+        "src/**/*"
+    ], // Aquí sí aplicamos el candado para producción
+}
